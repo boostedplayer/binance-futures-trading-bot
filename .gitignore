@@ -1,0 +1,36 @@
+# Secrets - real keys kabhi commit mat karna
+.env
+.env.local
+*.key
+*.pem
+
+# Python ka bytecode aur cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest / coverage ke artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE aur OS ki files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Note: logs/ ko ignore NAHI kar rahe - MARKET aur LIMIT ke sample log
+# deliverable ka part hain. Bas .env safe rehna chahiye.
